@@ -1,0 +1,60 @@
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<title>Click Me</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body onload="main();">
+	<div id="controlPanel">
+		<div class="buttonClass" id="pause">About</div>
+		<div class="buttonClass" id="scoreTable">Your Score: 1000♪</div>
+		<div class="buttonClass" id="ModeInfo">Mode: Classic</div>
+		<div class="buttonClass" id="SmallBall">SmallBalls:50</div>
+		<div class="buttonClass" id="comment" style="display: none;">Disqus</div>
+		<div class="buttonClass" id="config" style="display: none">Config</div>
+		<div class="buttonClass" id="restart" style="display: none">Restart</div>
+		<div id="control">
+			<div id="info" style="display: none;">
+				<h4>玩法说明</h4>
+				<p>1. 试着点击屏幕空白位置，然后静观其变；</p>
+				<p>2. 每次点击需要1000♪；</p>
+				<p>3. 推荐Chrome。Firefox由于“innerText”方法，信息不能正确显示。
+				<h4>作品说明</h4>
+				<p>1. 创意来自“永远不爱我们的、直的梁欢”的团队作品！</p>
+				<p>2. 梁欢微博：<a href="http://weibo.com/ningsibuqu">@梁欢</a>；</p>
+				<p>3. 作品链接：<a href="https://itunes.apple.com/cn/app/id553150037">Once Touch</a>；</p>
+				<p>4. <a href="mailto:s@lovep.me">联系我</a></p>
+				<h4>挫代码</h4>
+				<p>github.com<br></p>
+			</div>
+			<div id="disqus" style="display: none;">
+				<div id="disqus_thread"></div>
+			</div>
+			<div id="settings" style="display: none;">
+				<h4>模式</h4>
+				<div style="padding-left: 3em">
+					<input type="radio" id="classicMode" name="r1">经典模式
+					<input type="radio" id="endlessMode" name="r1">无尽模式<br>
+				</div>
+				<h4>数量</h4>
+				<div style="padding-left: 3em">
+					<input id="amount" type="number" value="10" min="1" style="width: 100px">当前：10 </input>
+					<span><br>（数量过多可能会导致浏览器崩溃！请随意尝试~）</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="backmap"></div>
+	<audio id="music0" preload="auto" src="ogg/loop.ogg" />
+	<audio id="music1" preload="auto" src="ogg/1.ogg" />
+	<audio id="music2" preload="auto" src="ogg/2.ogg" />
+	<audio id="music3" preload="auto" src="ogg/3.ogg" />
+	<audio id="music4" preload="auto" src="ogg/4.ogg" />
+	<audio id="music5" preload="auto" src="ogg/5.ogg" />
+	<audio id="music6" preload="auto" src="ogg/6.ogg" />
+	<audio id="music7" preload="auto" src="ogg/7.ogg" />
+	<audio id="music8" preload="auto" src="ogg/8.ogg" />
+	<audio id="music9" preload="auto" src="ogg/9.ogg" />
+</body>
+</html>

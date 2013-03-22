@@ -1,0 +1,184 @@
+body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	font-size: 10px;
+	text-align: center;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+div {
+	border-left: 1em;
+	border-right: 1em;
+}
+
+.small {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	background: black;
+	border-radius: 10px;
+	vertical-align:middle;
+	color: white;
+	text-shadow: 0 0 1px black;
+}
+
+.big {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	background: gray;
+	border-radius: 25px;
+}
+
+.disappear {
+	position: absolute;
+}
+
+.buttonClass {
+	position: absolute;
+	border-radius: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: center;
+}
+
+#pause {
+	width: 35px;
+	left: 5px;
+	background: rgba(209, 65, 29, 0.94);
+	z-index: 5;
+	color: white;
+	text-shadow: 0 0 2px gray;
+}
+
+#scoreTable {
+	position: absolute;
+	width: 130px;
+	left: 65px;
+	z-index: 5;
+	color: white;
+	text-shadow: 0 0 2px black;
+	color: rgb(255, 255, 202);
+	background: rgba(58, 146, 30, 0.85);
+}
+
+#ModeInfo {
+	left: 220px;
+	width: 95px;
+	z-index: 0;
+	background: rgb(216, 216, 216);
+}
+
+#SmallBall {
+	left: 340px;
+	width: 95px;
+	z-index: 0;
+	background: rgb(216, 216, 216);
+}
+
+#comment {
+	position: absolute;
+	width: 35px;
+	left: 220px;
+	z-index: 5;
+	background: #2e9fff;
+}
+
+#config {
+	position: absolute;
+	width: 45px;
+	left: 280px;
+	z-index: 5;
+	background: #2e9fff;
+}
+
+#restart {
+	position: absolute;
+	width: 45px;
+	left: 350px;
+	z-index: 5;
+	background: #2e9fff;
+}
+
+#backmap {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 0;
+}
+
+#control {
+	position: absolute;
+	left: 5px;
+	z-index: 4;
+	background: rgba(209, 209, 209, 0.75);
+	border-radius: 6px;
+	box-shadow: 0 0 10px black;
+}
+
+
+#info {
+	position:relative;
+	border-radius: 4px;
+	box-shadow: 0 0 3px black;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 25px;
+	text-align: left;
+	width: 540px;
+	height: 320px;
+	background: white;
+	overflow:auto;
+}
+
+#disqus {
+	position:relative;
+	border-radius: 4px;
+	box-shadow: 0 0 3px black;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 25px;
+	text-align: left;
+	width: 540px;
+	height: 320px;
+	background: white;
+	overflow:auto;
+}
+
+#settings {
+	position:relative;
+	border-radius: 4px;
+	box-shadow: 0 0 3px black;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 25px;
+	text-align: left;
+	width: 540px;
+	height: 320px;
+	background: white;
+	overflow:auto;
+}
+
+h4 {
+	padding-left: 1em;
+	font-size: 13px;
+	color: gray;
+	color: rgb(72, 92, 168)
+}
+
+p {
+	font-size: 10px;
+	padding-left: 3em;
+	-webkit-margin-before: 0.5em;
+	-webkit-margin-after: 0px;
+	color: rgb(0, 44, 100)
+}
